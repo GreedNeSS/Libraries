@@ -11,7 +11,7 @@ namespace CSharpCarClient
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("*** CarLibrary Client App ***");
+            Console.WriteLine("***C# CarLibrary Client App ***");
 
             SportCar viper = new SportCar("Viper", 240, 40);
             viper.TurboBust();
