@@ -15,10 +15,11 @@ namespace CarLibrary
     
     public enum MusicMedia
     {
-        MusicCd,
+        musicCd,
         musicTape,
         musicRadio,
-        musicMp3
+        musicMp3,
+        musicWiFI
     }
     
     public abstract class Car
@@ -33,12 +34,12 @@ namespace CarLibrary
 
         public Car()
         {
-            MessageBox.Show("CarLibrary Version 2.0!");
+            MessageBox.Show("CarLibrary Version 3.0!");
         }
 
         public Car(string name, int maxSp, int currSp)
         {
-            MessageBox.Show("CarLibrary Version 2.0!");
+            MessageBox.Show("CarLibrary Version 3.0!");
             PetName = name;
             MaxSpeed = maxSp;
             CurrentSpeed = currSp;
