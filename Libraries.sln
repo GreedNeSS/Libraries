@@ -11,6 +11,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VisualBasicCarClient", "Vis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedCarLibClient", "SharedCarLibClient\SharedCarLibClient.csproj", "{9C0864D3-EEE9-495A-B57E-B3966F68AE78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeBaseClient", "CodeBaseClient\CodeBaseClient.csproj", "{DCEFA78A-20E7-4E02-AF8E-A8014A0D994D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9C0864D3-EEE9-495A-B57E-B3966F68AE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C0864D3-EEE9-495A-B57E-B3966F68AE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C0864D3-EEE9-495A-B57E-B3966F68AE78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCEFA78A-20E7-4E02-AF8E-A8014A0D994D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCEFA78A-20E7-4E02-AF8E-A8014A0D994D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCEFA78A-20E7-4E02-AF8E-A8014A0D994D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCEFA78A-20E7-4E02-AF8E-A8014A0D994D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
