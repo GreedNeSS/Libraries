@@ -15,7 +15,7 @@ namespace SharedCarLibClient
 
             SportCar sportCar = new SportCar("Viper", 240, 50);
             sportCar.TurboBust();
-            sportCar.TurnOnRadio(true, MusicMedia.musicWiFI);
+            //sportCar.TurnOnRadio(true, MusicMedia.musicWiFI);
 
             Console.ReadLine();
         }
